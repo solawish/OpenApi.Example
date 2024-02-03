@@ -1,4 +1,5 @@
 using Asp.Versioning.ApiExplorer;
+using OpenApi.Example.Application;
 using OpenApi.Example.Infrastructure.ApiVersion;
 using OpenApi.Example.Infrastructure.Swagger;
 
@@ -13,6 +14,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddApiVersion();
 
 builder.Services.AddSwagger(builder.Configuration);
+
+builder.Services.AddApplication(builder.Configuration);
 
 var app = builder.Build();
 

@@ -23,4 +23,8 @@
     <ProjectReference Include="..\OpenApi.Example.Infrastructure\OpenApi.Example.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Infrastructure\Filters\" />
+  </ItemGroup>
+
 </Project>
