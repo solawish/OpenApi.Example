@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenApi.Example", "OpenApi.Example\OpenApi.Example.csproj", "{ECCB0E4A-51FB-4C27-8BA6-435C219445CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenApi.Example", "src\OpenApi.Example\OpenApi.Example.csproj", "{ECCB0E4A-51FB-4C27-8BA6-435C219445CA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenApi.Example.Application", "OpenApi.Example.Application\OpenApi.Example.Application.csproj", "{EBD19A86-6B92-4AAF-B7EF-B021D6A08CC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenApi.Example.Application", "src\OpenApi.Example.Application\OpenApi.Example.Application.csproj", "{EBD19A86-6B92-4AAF-B7EF-B021D6A08CC2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenApi.Example.Domain", "OpenApi.Example.Domain\OpenApi.Example.Domain.csproj", "{F844161D-E71D-4260-B656-948A522E138D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenApi.Example.Domain", "src\OpenApi.Example.Domain\OpenApi.Example.Domain.csproj", "{F844161D-E71D-4260-B656-948A522E138D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{AF82E727-8F3B-4B37-9229-91D6FBC1CFBE}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,7 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{F1056ADC-2CAF-47C2-8E51-51AAAB87E24E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenApi.Example.Infrastructure", "OpenApi.Example.Infrastructure\OpenApi.Example.Infrastructure.csproj", "{7D493370-6CF9-4692-8530-118E51B22AE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenApi.Example.Infrastructure", "src\OpenApi.Example.Infrastructure\OpenApi.Example.Infrastructure.csproj", "{7D493370-6CF9-4692-8530-118E51B22AE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
