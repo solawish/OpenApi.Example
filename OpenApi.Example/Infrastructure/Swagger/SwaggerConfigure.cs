@@ -150,7 +150,7 @@ public static class SwaggerConfigure
     {
         foreach (var doc in options.SwaggerGeneratorOptions.SwaggerDocs)
         {
-            doc.Value.Description += $"\n **Additional Description**";
+            doc.Value.Description += $"<br/> **Additional Description**";
         }
     }
 }

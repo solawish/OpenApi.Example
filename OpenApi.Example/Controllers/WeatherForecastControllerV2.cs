@@ -11,16 +11,15 @@ using System.Net.Mime;
 namespace OpenApi.Example.Controllers
 {
     [ApiController]
-    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiVersion("2.0")]
+    [Route("api/v{version:apiVersion}/WeatherForecast")]
     [Tags("WeatherForecast")]
-    [Obsolete("This controller is deprecated, please use WeatherForecastControllerV2 instead.")]
-    [ApiVersion("1.0", Deprecated = true)]
-    public class WeatherForecastController : ControllerBase
+    public class WeatherForecastControllerV2 : ControllerBase
     {
         private readonly ILogger<WeatherForecastController> _logger;
         private readonly IMediator _mediator;
 
-        public WeatherForecastController(
+        public WeatherForecastControllerV2(
             ILogger<WeatherForecastController> logger,
             IMediator mediator)
         {
